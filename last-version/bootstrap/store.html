@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">WEB PORTAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" id="mainHeaderText" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="storeHeaderText" href="store.html">Магазин</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" id="inputSearchProduct" type="search" placeholder="Поиск товара" aria-label="Search">
+                    <button class="btn btn-outline-success btn-space" id="searchButton" type="submit">Поиск</button>
+                    <input type="button" class="btn btn-outline-info btn-space" value="RU" onclick="RU('index')"></input>
+                    <input type="button" class="btn btn-outline-dark btn-space" value="EN"  onclick="EN('index')"></input>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="magazin" id="magazin">
+    <nav class="white"></nav>
+    <div class="sauda">
+
+
+        <div class="tovars">
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar">Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tovars">
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tovars">
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="store">
+                <div class="tovarn1">
+                    <a href="product-info.html" target="_self"><img class="tovar" src="tovar1.png" alt="Tovar" title="Tovar"></a>
+                    <div class="tovarname">
+                        <h3 class="nametovar" >Ваш товар</h3>
+                        <div class="cost">
+                            <del style="color: green;"><span class="price" style="color: green;">₸1 000,00</span></del>
+                            <span class="discount" style="color: inherit;">₸850,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <nav class="white"></nav>
+
+
+
+</div>
+<div class="Eldar">
+
+</div>
+
+<script src="project.js"></script>
+<script>
+    init('store')
+</script>
+</body>
+</html>
